@@ -23,11 +23,13 @@
 /build/CMakeFiles
 /build/cmake_install.cmake
 /build/Makefile
+/build/tests
 /CMakeCache.txt
 /CMakeFiles
 /cmake_install.cmake
 /Makefile
 /bin
+/tests/bin
 
 # stgit
 patches-*
