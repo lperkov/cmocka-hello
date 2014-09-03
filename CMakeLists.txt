@@ -9,6 +9,7 @@ SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 
 SET(SOURCES
 	src/almost-calc.c
+	src/almost-main.c
 )
 
 ADD_EXECUTABLE(almost-calc ${SOURCES})
