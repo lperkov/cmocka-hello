@@ -27,11 +27,11 @@ static void torture_sum_3_5(void **state) {
 }
 
 int main(void) {
-	const UnitTest tests[] = {
-		unit_test(torture_sum_1_1),
-		unit_test(torture_sum_1_2),
-		unit_test(torture_sum_3_5),
+	const struct CMUnitTest tests[] = {
+		cmocka_unit_test(torture_sum_1_1),
+		cmocka_unit_test(torture_sum_1_2),
+		cmocka_unit_test(torture_sum_3_5),
 	};
 
-	return run_tests(tests);
+	return cmocka_run_group_tests(tests, NULL, NULL);
 }
